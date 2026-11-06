@@ -25,7 +25,6 @@ jobs:
       contents: 'read'
       id-token: 'write'
 
-    steps:
     - id: 'auth'
       uses: 'google-github-actions/auth@v2'
       with:
